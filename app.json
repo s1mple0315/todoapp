@@ -3,6 +3,7 @@
     "name": "todoapp",
     "slug": "todoapp",
     "version": "1.0.0",
+    "platform": ["android", "ios"],
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -12,6 +13,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.yourcompany.yourappname",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
